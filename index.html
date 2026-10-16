@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CinePlus | Simulación educativa de adware</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="nav">
+    <div class="logo">🎬 CinePlus</div>
+    <nav>Inicio　 Películas　 Series　 Géneros</nav>
+    <span class="search">Buscar películas...　⌕</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="poster">
+        <span class="tag">ESTRENO · 2026</span>
+        <h1>La Sociedad Secreta</h1>
+        <p>2026　 HD　 Acción · Drama</p>
+        <button class="watch" type="button">▶ Ver ahora</button>
+      </div>
+    </section>
+
+    <h2>Películas recomendadas</h2>
+    <section class="movies">
+      <div>🌌<small>Universo perdido</small></div>
+      <div>🕵️<small>El último caso</small></div>
+      <div>🎭<small>Detrás del misterio</small></div>
+      <div>🏙️<small>Ciudad oculta</small></div>
+      <div>🚀<small>Más allá</small></div>
+    </section>
+
+    <section class="lab">
+      <span class="pill">ENTORNO DE PRÁCTICA</span>
+      <p>Simulador visual de publicidad intrusiva</p>
+      <div class="controls">
+        <button id="start">▶ Iniciar simulación</button>
+        <button id="stop" disabled>■ Detener</button>
+        <button id="reset">↻ Reiniciar</button>
+      </div>
+      <p id="status" aria-live="polite">Simulación detenida</p>
+      <small>Los avisos son ficticios y solo aparecen dentro de esta página.</small>
+    </section>
+  </main>
+
+  <div id="ads" aria-live="polite"></div>
+
+  <footer>
+    CinePlus Demo · Laboratorio educativo de ciberseguridad
+  </footer>
+</body>
+</html>
